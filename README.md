@@ -1,5 +1,5 @@
 # Savinova K-ISP-21 8.2.25
-1. Начинаем с установки пакета wget, используя команду '''sudo yum install wget'''
+1. Начинаем с установки пакета wget, используя команду ``` sudo yum install wget ```
    
 ![image](https://github.com/user-attachments/assets/f5a266e4-198d-4bfc-ad12-3e4c3dae1731)
 
