@@ -11,7 +11,7 @@
 
 ![image](https://github.com/user-attachments/assets/826c9bf0-6a7b-4098-a16c-6560a6f184f2)
 
-4. Устанавливаем docker, используя команду sudo yum ``` install docker-ce docker-ce-cli containerd.io ```
+4. Устанавливаем docker, используя команду **sudo yum** ``` install docker-ce docker-ce-cli containerd.io ```
 
 ![image](https://github.com/user-attachments/assets/3b99f2b3-db3b-4ace-8063-35bea3465781)
 ![image](https://github.com/user-attachments/assets/a565ba48-96f7-4ee5-9d63-e31a6622648a)
@@ -20,7 +20,7 @@
 
 ![image](https://github.com/user-attachments/assets/978f74c7-b98e-4f31-8a6d-5613cb703c32)
 
-15.02.25 - продолжение работы 
+***15.02.25 - продолжение работы***
 
 6. С помощью команды ``` COMVER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag_name' | cut -d\" -f4) ``` получаем последнюю версию docker с помощью api github. ``` curl -s ``` выполняет http запрос к api для получения информации о последнем релизе репозитория docker.
 
