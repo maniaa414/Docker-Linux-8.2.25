@@ -42,5 +42,43 @@
 
 ![image](https://github.com/user-attachments/assets/15a60e16-9c15-4e72-9558-db442e540328)
 
-10. 
+10. С помощью команды ``` git clone https://github.com/skl256/grafana_stack_for_docker.git ``` выполняем клонирование удаленного репозитория git, расположенного по указанному url.
+
+![image](https://github.com/user-attachments/assets/704db6ec-a705-4339-8b13-71de3bfed61a)
+
+11. ``` cd grafana_stack_for_docker ``` с помощью этой команды переходим в папку.
+
+![image](https://github.com/user-attachments/assets/3f158e04-e77f-4263-908c-ba9fc3129cca)
+
+12. ```sudo mkdir -p /mnt/common_volume/swarm/grafana/config```  - команда создаёт полный путь, включая все необходимые промежуточные каталоги, если они ещё не существуют.
+
+![image](https://github.com/user-attachments/assets/d081e98c-9f08-464e-98ae-0bb180906404)
+
+13. ```sudo mkdir -p /mnt/common_volume/grafana/{grafana-config,grafana-data,prometheus-data}``` - используя эту команду, создаём структуру каталогов для grafana и связанных с ней компонентов, если они ещё не существуют.
+
+![image](https://github.com/user-attachments/assets/cdaabf6e-1cec-41d9-a18c-daaf522c7e1e)
+
+14. ``` sudo chown -R $(id -u):$(id -g) {/mnt/common_volume/swarm/grafana/config,/mnt/common_volume/grafana} ``` - все файлы и каталоги в указанных директориях будут переданы в собственность текущему пользователю и его группе.
+
+![image](https://github.com/user-attachments/assets/1bb4c071-a037-4bbe-b950-b9f6b615ac89)
+
+15. ```touch /mnt/common_volume/grafana/grafana-config/grafana.ini``` - файл grafana.ini уже существует, команда обновит его временные метки (время последнего доступа и изменения). Если файл не существует, команда создаст новый пустой файл с указанным именем по указанному пути.
+
+![image](https://github.com/user-attachments/assets/8af235f9-2490-4305-9cc4-ca0776e78f33)
+
+16. ```cp config/* /mnt/common_volume/swarm/grafana/config/ ``` - команда копирует все файлы и подкаталоги из директории config в директорию /mnt/common_volume/swarm/grafana/config/.
+
+![image](https://github.com/user-attachments/assets/8bf87f67-842c-49df-9554-05ed6d6f471c)
+
+17. ``` mv grafana.yaml docker-compose.yaml ``` - команда переименовывает файл grafana.yaml в docker-compose.yaml. Ничего не покажет, но можно проверить при помощи команды ls.
+
+![image](https://github.com/user-attachments/assets/117ac187-6983-42df-b5e7-2ec3954603fb)
+
+18. ```sudo docker compose up -d``` -  команда создает и запускает контейнеры в фоновом режиме, используя конфигурацию из файла docker-compose.yml, с правами суперпользователя.
+
+![image](https://github.com/user-attachments/assets/59331e3e-2b28-4a28-bd64-0da33c017b28)
+
+19. ``` sudo vi docker-compose.yaml``` - команда открывает файл docker-compose.yaml в текстовом редакторе vi с правами суперпользователя, что позволяет вам редактировать его содержимое. Далее нас перекинет в текстовый редактор и чтобы внести изменения в тесковом редакторе нажмите insert на клавиатуре. Чтобы сохранить что-то в этом документе нажимаем Esc пишем :wq! В этом текставом редакторе мы должны поставить node-exporter после services.
+
+![image](https://github.com/user-attachments/assets/ce4ff81f-3547-4c71-ae69-9764c7aede00)
 
