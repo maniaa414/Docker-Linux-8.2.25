@@ -20,7 +20,7 @@
 
 ![image](https://github.com/user-attachments/assets/978f74c7-b98e-4f31-8a6d-5613cb703c32)
 
-# ***15.02.25 - продолжение работы***
+# ***15.02.25 - продолжение работы c Docker***
 
 6. С помощью команды ``` COMVER=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep 'tag_name' | cut -d\" -f4) ``` получаем последнюю версию docker с помощью api github. ``` curl -s ``` выполняет http запрос к api для получения информации о последнем релизе репозитория docker.
 
