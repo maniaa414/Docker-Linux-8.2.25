@@ -124,21 +124,25 @@
 ![image](https://github.com/user-attachments/assets/8af235f9-2490-4305-9cc4-ca0776e78f33)
 
 16. ```cp config/* /mnt/common_volume/swarm/grafana/config/ ```
+    
 команда копирует все файлы и подкаталоги из директории config в директорию /mnt/common_volume/swarm/grafana/config/.
 
 ![image](https://github.com/user-attachments/assets/8bf87f67-842c-49df-9554-05ed6d6f471c)
 
 17. ``` mv grafana.yaml docker-compose.yaml ```
+
 команда переименовывает файл grafana.yaml в docker-compose.yaml. Ничего не покажет, но можно проверить при помощи команды ls.
 
 ![image](https://github.com/user-attachments/assets/117ac187-6983-42df-b5e7-2ec3954603fb)
 
 18. ```sudo docker compose up -d```
+
 команда создает и запускает контейнеры в фоновом режиме, используя конфигурацию из файла docker-compose.yml, с правами суперпользователя.
 
 ![image](https://github.com/user-attachments/assets/59331e3e-2b28-4a28-bd64-0da33c017b28)
 
 ( не доделано) 19. ``` sudo vi docker-compose.yaml```
+
 команда открывает файл docker-compose.yaml в текстовом редакторе vi с правами суперпользователя, что позволяет вам редактировать его содержимое. Далее нас перекинет в текстовый редактор и чтобы внести изменения в тесковом редакторе нажмите insert на клавиатуре. Чтобы сохранить что-то в этом документе нажимаем Esc пишем :wq! В этом текставом редакторе мы должны поставить node-exporter после services.
 
 ![image](https://github.com/user-attachments/assets/ce4ff81f-3547-4c71-ae69-9764c7aede00)
