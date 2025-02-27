@@ -1,7 +1,7 @@
 # Savinova K-ISP-21 8.2.25 ``` Установка docker на Oracle Linux ```
 1. Начинаем с установки пакета wget (утилиты командной строки Linux, используемой для загрузки файлов из интернета), используя команду
 
-``` sudo yum install wget ```
+< sudo yum install wget >
    
 ![image](https://github.com/user-attachments/assets/f5a266e4-198d-4bfc-ad12-3e4c3dae1731)
 
