@@ -137,15 +137,38 @@
 
 18. ```sudo docker compose up -d```
 
-команда создает и запускает контейнеры в фоновом режиме, используя конфигурацию из файла docker-compose.yml, с правами суперпользователя.
+команда создает и запускает контейнеры в фоновом режиме, используя конфигурацию из файла docker-compose.yaml, с правами суперпользователя.
 
 ![image](https://github.com/user-attachments/assets/59331e3e-2b28-4a28-bd64-0da33c017b28)
 
-( не доделано) 19. ``` sudo vi docker-compose.yaml```
+19. ``` sudo vi docker-compose.yaml```
 
 команда открывает файл docker-compose.yaml в текстовом редакторе vi с правами суперпользователя, что позволяет редактировать его содержимое. 
 
 ![image](https://github.com/user-attachments/assets/d71ccbab-5abc-4e41-8909-4b9c2e72b5e4)
 
-![image](https://github.com/user-attachments/assets/ce4ff81f-3547-4c71-ae69-9764c7aede00)
+20. `sudo docker compose up -d`
+    
+создает и запускает контейнеры в фоновом режиме, если они не запущены.
+
+![image](https://github.com/user-attachments/assets/bc158efa-1391-41e6-b91b-a104baf53443)
+
+21. `sudo docker compose stop`
+
+останавливает запущенные контейнеры без их удаления.
+
+![image](https://github.com/user-attachments/assets/6e2f71cf-24c1-4977-a45c-01e2dbdda23d)
+
+22. ` sudo docker compose down `
+
+используется для остановки и удаления контейнеров, сетей, томов и других ресурсов, созданных с помощью Docker Compose.
+
+![image](https://github.com/user-attachments/assets/d42f8693-ed9a-4b10-875a-9bfd51e2493d)
+
+23. 
+
+ 
+
+
+
 
