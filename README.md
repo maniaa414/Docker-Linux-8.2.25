@@ -165,7 +165,22 @@
 
 ![image](https://github.com/user-attachments/assets/d42f8693-ed9a-4b10-875a-9bfd51e2493d)
 
-23. 
+**Работа с репозиторием и его файлами.**
+
+`sudo git clone https://github.com/maniaa414/Docker-Linux-8.2.25.git`
+
+клонирование репозитория Docker-Linux-8.2.25 с GitHub.
+
+![image](https://github.com/user-attachments/assets/2274d094-eeba-4e65-b1d5-dfa3231a6668)
+
+`cd Docker-Linux-8.2.25`  `ls`
+
+переход в каталог Docker-Linux-8.2.25 и просмотр файлов.
+
+
+
+
+
 
  
 
