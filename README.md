@@ -173,9 +173,25 @@
 
 ![image](https://github.com/user-attachments/assets/2274d094-eeba-4e65-b1d5-dfa3231a6668)
 
-`cd Docker-Linux-8.2.25`  `ls`
+`cd Docker-Linux-8.2.25`  `ls` 
 
 переход в каталог Docker-Linux-8.2.25 и просмотр файлов.
+
+`sudo rm README.md` Открытие файла README.md с правами sudo.
+
+![image](https://github.com/user-attachments/assets/f124e561-3f77-45e0-b048-faa085186d4e)
+
+`cd folder`  `ls` переход в подкаталог folder и просмотр его содержимого.
+ `pwd` вывод полного пути текущего каталога
+
+![image](https://github.com/user-attachments/assets/183fe980-6521-445d-b209-40475d6d0b54)
+
+
+`cp /home/savinova/Docker-Linux-8.2.25/folder/* /home/savinova/grafana_stack_for_docker` копирование всех файлов из `/home/savinova/Docker-Linux-8.2.25/folder/` в `home/savinova/grafana_stack_for_docker` 
+
+![image](https://github.com/user-attachments/assets/6d3290bb-4117-4cae-b787-142af85d5a65)
+
+
 
 
 
