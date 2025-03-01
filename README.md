@@ -187,7 +187,7 @@
 ![image](https://github.com/user-attachments/assets/183fe980-6521-445d-b209-40475d6d0b54)
 
 
-`cp /home/savinova/Docker-Linux-8.2.25/folder/* /home/savinova/grafana_stack_for_docker` копирование всех файлов из <kbd>/home/savinova/Docker-Linux-8.2.25/folder/</kbd> в <kbd>/home/savinova/grafana_stack_for_docker</kbd>
+- `cp /home/savinova/Docker-Linux-8.2.25/folder/* /home/savinova/grafana_stack_for_docker` копирование всех файлов из <kbd>/home/savinova/Docker-Linux-8.2.25/folder/</kbd> в <kbd>/home/savinova/grafana_stack_for_docker</kbd>
 
 ![image](https://github.com/user-attachments/assets/6d3290bb-4117-4cae-b787-142af85d5a65)
 
