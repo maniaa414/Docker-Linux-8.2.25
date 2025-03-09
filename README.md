@@ -189,7 +189,23 @@
 
 - `cp /home/savinova/Docker-Linux-8.2.25/folder/* /home/savinova/grafana_stack_for_docker` копирование всех файлов из <kbd>/home/savinova/Docker-Linux-8.2.25/folder/</kbd>(prometeus.yaml, docker-compose.yaml(изменяем основной файл в файл с Github)) в <kbd>/home/savinova/grafana_stack_for_docker</kbd>
 
-![image](https://github.com/user-attachments/assets/6d3290bb-4117-4cae-b787-142af85d5a65)
+![image](https://github.com/user-attachments/assets/93eaf503-2ee0-42eb-b4f7-3657aa1c6ef1)
+
+- `cp prometheus.yaml prometheus.yaml1` создает копию файла prometheus.yaml с именем prometheus.yaml1. Это полезно, если нужно сохранить резервную копию конфигурации или работать с измененной версией файла, не затрагивая оригинал.
+  
+![image](https://github.com/user-attachments/assets/6f547fdb-a265-4379-9871-86c9e4e325b4)
+
+`sudo cp prometheus.yaml /mnt/common_volume/swarm/grafana/config` выполняет копирование файла **prometheus.yaml** в указанную директорию с использованием прав администратора (sudo).
+
+![image](https://github.com/user-attachments/assets/51fcc89c-fd16-4583-8b33-8f0e808ae289)
+
+
+- `ls` команда выводит список файлов в директории.
+
+![image](https://github.com/user-attachments/assets/a2ba60f2-6492-45cd-9d1b-978769de4cee)
+
+
+
 
 
 
