@@ -219,9 +219,11 @@
 ![image](https://github.com/user-attachments/assets/e851eec3-7e40-42f9-b1d4-5681cd956439)
 
 - Создаю визуализацию.
+  
 ![image](https://github.com/user-attachments/assets/dad3386a-3da5-4519-9792-af080bbd4ab2)
 
 - Выбираю `prometheus`
+  
 ![image](https://github.com/user-attachments/assets/4c1957da-3be1-4b5a-a614-c5c1b93f9dd4)
 
 - Ставлю аутентификацию и url `prometheus`.
