@@ -206,12 +206,41 @@
 
 # ***Grafana***
 
-- Переходим на сайт localhost:3000. - Пользователь и пароль: admin. - Код графаны 1816. - Код прометеуса: http://prometheus:9090.
+- Переходим на сайт **localhost:3000**. - Пользователь и пароль: admin. - Код графаны 1816. - Код прометеуса: http://prometheus:9090.
 
+![image](https://github.com/user-attachments/assets/6e2e1a9b-4261-4db7-8a0e-19d62c5631e5)
 
+- Интерфейс графаны.
 
+![image](https://github.com/user-attachments/assets/7eb6a34e-c244-4a5b-96e9-69cdf5627c6c)
 
+- Иду в **dashboars** и создаю новый.
 
+![image](https://github.com/user-attachments/assets/e851eec3-7e40-42f9-b1d4-5681cd956439)
+
+- Создаю визуализацию.
+![image](https://github.com/user-attachments/assets/dad3386a-3da5-4519-9792-af080bbd4ab2)
+
+- Выбираю `prometheus`
+![image](https://github.com/user-attachments/assets/4c1957da-3be1-4b5a-a614-c5c1b93f9dd4)
+
+- Ставлю аутентификацию и url `prometheus`.
+
+![image](https://github.com/user-attachments/assets/df5d06e3-09a6-44b2-904b-744cb9067c11)
+
+- Сохраняю и проверяю, что все супер.
+
+![image](https://github.com/user-attachments/assets/b71785da-8198-4541-8497-fa5096fb7065)
+
+- Импортирую 1860 dashboard.
+
+![image](https://github.com/user-attachments/assets/6fa770d9-acb0-4dc8-afc3-51d60e9d6aa5)
+
+- Выбираю prometheus и импортирую.
+
+![image](https://github.com/user-attachments/assets/0ca8d7a8-50e3-4030-939f-4e06782b3f0d)
+
+- Результат.![image](https://github.com/user-attachments/assets/03ef6038-65a2-4ae0-9975-6830b04f4884)
 
 
 
