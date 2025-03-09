@@ -240,7 +240,9 @@
 
 ![image](https://github.com/user-attachments/assets/0ca8d7a8-50e3-4030-939f-4e06782b3f0d)
 
-- Результат.![image](https://github.com/user-attachments/assets/03ef6038-65a2-4ae0-9975-6830b04f4884)
+- Результат.
+
+![image](https://github.com/user-attachments/assets/03ef6038-65a2-4ae0-9975-6830b04f4884)
 
 
 
