@@ -204,6 +204,9 @@
 
 ![image](https://github.com/user-attachments/assets/a2ba60f2-6492-45cd-9d1b-978769de4cee)
 
+# ***Grafana***
+
+- Переходим на сайт localhost:3000. - Пользователь и пароль: admin. - Код графаны 1816. - Код прометеуса: http://prometheus:9090.
 
 
 
