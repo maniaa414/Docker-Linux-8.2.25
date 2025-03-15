@@ -216,6 +216,14 @@
 
 ![image](https://github.com/user-attachments/assets/03ef6038-65a2-4ae0-9975-6830b04f4884)
 
+# ***VictoriaMetrics***
+
+![image](https://github.com/user-attachments/assets/35ec465b-825e-434a-8dcf-2f56387e6c56)
+
+![image](https://github.com/user-attachments/assets/02fe01f9-fd65-4539-925a-b970ec0d3389)
+
+![image](https://github.com/user-attachments/assets/b6cab52d-7ddf-40ad-bbe2-196acc475393)
+
 
 
 
