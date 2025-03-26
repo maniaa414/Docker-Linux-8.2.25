@@ -1,6 +1,6 @@
 # Savinova K-ISP-21 
 
-# ***Установка docker на Oracle Linux*** *8.2.25*
+# ***Установка Docker Compose, работа с Grafana и Victoria Metrics на Oracle Linux*** *8.2.25*
 
 ![image](https://github.com/user-attachments/assets/1ca6c0d2-d77b-48e5-a904-219a56d23118)
 
