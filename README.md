@@ -239,8 +239,11 @@
 Меняю на code
 ![image](https://github.com/user-attachments/assets/f5fb5891-73c2-4ae4-82bb-5291e144bee4)
 
+пишу в терминал
 ![image](https://github.com/user-attachments/assets/e64893b8-0f7e-4e45-ab26-8de140e4c010)
 
+
+и в итоге
 ![image](https://github.com/user-attachments/assets/493f5d6e-7dfb-4b3c-b842-9ebed357fedc)
 
 ![image](https://github.com/user-attachments/assets/399d8043-aeed-4376-ab0e-885068eb21d0)
