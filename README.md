@@ -222,21 +222,28 @@
 
 # ***VictoriaMetrics***
 
+Меняю connection на victoriametrics
+![image](https://github.com/user-attachments/assets/7549713c-fd00-4309-b077-d7170b56643b)
+
+Захожу на локалхост 8248
 - Интерфейс системы VictoriaMetrics, которая используется для мониторинга и сбора метрик. Страница содержит ссылку на документацию и перечень полезных эндпоинтов (конечных точек API), которые можно использовать для взаимодействия с системой.
 
-![image](https://github.com/user-attachments/assets/35ec465b-825e-434a-8dcf-2f56387e6c56)
-
-- На скриншоте показан ответ от API, который возвращает ошибку. Этот ответ получен при обращении к эндпоинту localhost:8428/api/v1/query
-status: `erro` — указывает, что запрос завершился с ошибкой.
-errorType: `422` — код ошибки, который соответствует статусу `Unprocessable Entity` (необрабатываемое содержимое). Это означает, что сервер понял запрос, но не может обработать его из-за семантических ошибок.
-error: `missing 'query' arg` — сообщение об ошибке, указывающее, что в запросе отсутствует обязательный аргумент query.
-
 ![image](https://github.com/user-attachments/assets/02fe01f9-fd65-4539-925a-b970ec0d3389)
+
 
 - На скриншоте изображен интерфейс системы мониторинга и анализа метрик Grafana. Это веб-интерфейс, который позволяет пользователям создавать и выполнять запросы к данным, собранным из различных источников, а также визуализировать результаты в виде графиков и дашбордов.
 - Юзер работает с локальной установкой Grafana на порту 8428.
 
 ![image](https://github.com/user-attachments/assets/b6cab52d-7ddf-40ad-bbe2-196acc475393)
+
+Меняю на code
+![image](https://github.com/user-attachments/assets/f5fb5891-73c2-4ae4-82bb-5291e144bee4)
+
+![image](https://github.com/user-attachments/assets/e64893b8-0f7e-4e45-ab26-8de140e4c010)
+
+![image](https://github.com/user-attachments/assets/493f5d6e-7dfb-4b3c-b842-9ebed357fedc)
+
+![image](https://github.com/user-attachments/assets/399d8043-aeed-4376-ab0e-885068eb21d0)
 
 
 
